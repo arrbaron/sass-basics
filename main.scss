@@ -4,6 +4,24 @@ $bg-color: #2c3e50;
 $hover-color: #16a085;
 $text-color: white;
 
+.panel {
+  border: 3px solid dodgerblue;
+  background: salmon;
+  margin: 10px;
+}
+
+.panel--little {
+  @extend .panel;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.panel--big {
+  @extend .panel;
+  font-size: 20px;
+  padding: 10px;
+}
+
 p {
   font-size: 24px;
 }
