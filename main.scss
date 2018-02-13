@@ -3,6 +3,32 @@
 $bg-color: #2c3e50;
 $hover-color: #16a085;
 $text-color: white;
+$button-background: purple;
+$button-color: white;
+$button-padding: 5px;
+
+.button {
+  background: $button-background;
+  border-radius: 8px;
+  color: $button-color;
+  display: inline-block;
+  padding: $button-padding;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: $button-background * 1.5;
+}
+
+.button--jumbo {
+  @extend .button;
+  padding: $button-padding + 30px;
+}
+
+.button--light {
+  @extend .button;
+  background: $button-background * 1.5;
+}
 
 .panel {
   border: 3px solid dodgerblue;

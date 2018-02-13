@@ -4,6 +4,23 @@
   width: 200px;
   border: 5px solid seagreen; }
 
+.button, .button--jumbo, .button--light {
+  background: purple;
+  border-radius: 8px;
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none; }
+
+.button:hover, .button--jumbo:hover, .button--light:hover {
+  background: #c000c0; }
+
+.button--jumbo {
+  padding: 35px; }
+
+.button--light {
+  background: #c000c0; }
+
 .panel, .panel--little, .panel--big {
   border: 3px solid dodgerblue;
   background: salmon;
